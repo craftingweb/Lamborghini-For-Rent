@@ -173,5 +173,51 @@ button {
 
 .info__gallery {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 20px;
+}
+
+.info__gallery-img {
+  max-width: 100%;
+}
+
+.color {
+  background-color: #13171c;
+}
+
+.color__title {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+  font-size: 160px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-bottom: 70px;
+}
+
+.color__img,
+.color__salon {
+  width: 100%;
+}
+
+.color__selection {
+  padding: 170px 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+}
+
+.color__item img {
+  max-width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.color__text {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
