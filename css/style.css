@@ -184,6 +184,7 @@ button {
 
 .color {
   background-color: #13171c;
+  padding-bottom: 170px;
 }
 
 .color__title {
@@ -219,5 +220,102 @@ button {
   color: #fff;
   font-size: 36px;
   font-weight: 900;
+  text-transform: uppercase;
+}
+
+.contacts {
+  /* padding-bottom: 100px; */
+  background-color: #13171c;
+}
+
+.contacts__title {
+  color: #ff5017;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.contacts__box {
+  display: flex;
+  gap: 40px 200px;
+  justify-content: space-between;
+}
+.contacts__info {
+  min-width: 560px;
+  margin-left: 300px;
+  padding-right: 150px;
+}
+.contacts__info-text {
+  color: #bcbcbc;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.contacts__info-subtext {
+  color: #fff;
+  margin-top: 10px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  max-width: 477px;
+}
+.contacts__phone {
+  color: #fff;
+  text-transform: uppercase;
+}
+.contacts__confirm {
+  color: #fff;
+  margin-top: 77px;
+  max-width: 330px;
+  font-size: 14px;
+}
+.contacts__form {
+  width: 600px;
+}
+.input__name::placeholder,
+.input__phone::placeholder,
+.input__city::placeholder {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.input__phone {
+}
+.input__city {
+}
+
+.contacts-price {
+  color: white;
+  margin-top: 36px;
+}
+
+.contacts-order {
+  width: 100%;
+}
+
+.footer {
+  background-color: #13171c;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid white;
+  display: block;
+  background-color: inherit;
+  width: 100%;
+  padding: 10px 346px 10px 10px;
+  outline: none;
+  color: white;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
   text-transform: uppercase;
 }
