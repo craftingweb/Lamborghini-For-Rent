@@ -175,6 +175,7 @@ button {
 .info__gallery {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   gap: 20px;
 }
@@ -317,7 +318,27 @@ input {
   text-transform: uppercase;
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1501px) {
+  .title {
+    padding-left: 0;
+    font-size: 270px;
+  }
+  .subtitle {
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  .header__images {
+    display: none;
+  }
+}
+
+@media (max-width: 1820px) {
+  .info__gallery-img {
+    max-width: 49%;
+  }
+}
+
+@media (max-width: 1500px) {
   .title {
     font-size: 200px;
     padding-left: 0;
@@ -330,6 +351,21 @@ input {
   .header__images {
     display: none;
     top: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .info__title {
+    font-size: 80px;
+  }
+  .info {
+    padding: 70px 0;
+  }
+  .info__content {
+    margin-bottom: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 20px;
   }
 }
 
